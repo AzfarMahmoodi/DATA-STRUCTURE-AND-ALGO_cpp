@@ -1,3 +1,8 @@
+You are better than
+83.46%
+Runtime
+32 ms
+
 
 #define MOD 1000000007
 #include <bits/stdc++.h>
