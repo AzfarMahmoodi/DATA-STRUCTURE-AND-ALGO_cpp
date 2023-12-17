@@ -1,0 +1,28 @@
+Runtime
+3
+ms
+Beats
+90.19%
+of users with C++
+Memory
+13.26
+MB
+Beats
+93.53%
+of users with C++
+
+
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+         
+        int ans = 0;
+        for(int i=0;i<prices.size()-1;i++)
+        {
+            if(prices[i]<prices[i+1])
+              ans += prices[i+1]-prices[i];
+        }
+        return ans;
+    
+    }
+};
